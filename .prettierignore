@@ -1,0 +1,22 @@
+# Laravel
+/vendor
+/storage
+/node_modules
+/public/build
+/public/hot
+/**/*.min.js
+
+# IDE/Editor
+.vscode
+
+# Build/Cache
+*.log
+*.cache
+*.lock
+
+# Blade templates (если не хочешь форматировать их Prettier'ом)
+resources/views/**/*.blade.php
+
+# JS build artifacts (если используешь сборку)
+dist
+build
