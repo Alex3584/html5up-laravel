@@ -10,7 +10,20 @@
 </head>
 
 <body class="is-preload">
-    @yield('content')
+
+    <div id="wrapper">
+
+        <div id="main">
+            <div class="inner">
+                @include('partials.header')
+
+                @yield('content')
+            </div>
+        </div>
+
+        @include('partials.sidebar')
+
+    </div>
 
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/browser.min.js') }}"></script>
