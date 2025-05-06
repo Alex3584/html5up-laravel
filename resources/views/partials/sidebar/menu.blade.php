@@ -10,6 +10,9 @@
     <li><a href="{{ route('home') }}">Homepage</a></li>
     <li><a href="{{ route('generic') }}">Generic</a></li>
     <li><a href="{{ route('elements') }}">Elements</a></li>
+    <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+    <li><a href="{{ route('profile') }}">Profile</a></li>
+    <li><a href="{{ route('settings') }}">Settings</a></li>
 
     @unless ($isHome)
       <li>

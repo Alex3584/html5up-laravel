@@ -20,4 +20,19 @@ class PageController extends Controller
     {
         return view('pages.elements');
     }
+
+    public function dashboard(): View
+    {
+        return view('pages.dashboard');
+    }
+
+    public function profile(): View
+    {
+        return view('pages.profile');
+    }
+
+    public function settings(): View
+    {
+        return view('pages.settings');
+    }
 }
